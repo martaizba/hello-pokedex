@@ -1,2 +1,2 @@
-# hello-pokedex-
+# hello-pokedex
 Pokedex demo
