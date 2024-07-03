@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon listado</title>
     <link rel="icon" href="/img/pokeball.png" type="image/png">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/theme.css">
    
 </head>
-<body>
-    <header>
-        <img src="" alt="">
-        <H1>Pokedex</H1>
-        <input type="text" placeholder="Search">
-        <button>#</button>
+<body class="page__container">
+    <header class="header__container">
+
+        <div class="title__container">
+            <img class="title__logo" src="/img/pokeball.png" alt="pokeball">
+            <H1 class="title__text headline">Pokedex</H1>
+        </div>
+
+        <div class="filters__container">
+            <input class="filter__search" type="text" placeholder="Search">
+            <button class="filters__sort">#</button>
+        </div>
+
+
         
     </header>
     <main>

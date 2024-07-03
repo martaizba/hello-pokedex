@@ -1,0 +1,41 @@
+.page__container {
+    background-color: var(--po-primary-color, #74CB48);
+    padding: var(--po-inner-spacing-xs);
+    font-family: "Poppins", "Courier";
+
+    
+}
+
+.header__container {
+    padding: var(--po-inner-spacing-sm);
+    color:white;
+    font-weight: bold;
+}
+
+
+.title__container, .filters__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--po-inner-spacing-sm);
+
+}
+
+
+.filter__search {
+    padding: 8px 8px 8px 12px;
+    border-radius: 16px;
+    border: none;
+    width: 280px;
+}
+
+.filter__button {
+    padding: 8px;
+    border-radius: 100%;
+    border: none;
+    width: 32px;
+    height: 32px;
+    color: var(--po-primary-color);
+    box-shadow: 0 1 2 1 rgba(0, 0, 0, 0.25) inset;
+
+}

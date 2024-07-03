@@ -1,0 +1,23 @@
+:root {
+    --po-primary-color: #DC0A2D;
+    --po-inner-spacing-xs: 4px;
+    --po-inner-spacing-sm: 12px;
+
+    --po-title-color: #ffffff; 
+
+    /*FONTS*/
+    --po-body3:
+
+}
+
+
+
+
+/*PARA HACER dARK MODE*/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --po-primary-color: #580614;
+
+        --po-title-color: #494949; 
+    }
+ }
