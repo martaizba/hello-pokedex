@@ -10,8 +10,18 @@
     padding: var(--po-inner-spacing-sm);
     color:white;
     font-weight: bold;
+    padding: var(--po-inner-spacing-xs);
+
 }
 
+
+.title__container {
+    margin-bottom: 8px;
+}
+
+.title__text{
+    color: white;
+}
 
 .title__container, .filters__container {
     display: flex;
@@ -29,13 +39,16 @@
     width: 280px;
 }
 
-.filter__button {
+.filter__sort {
     padding: 8px;
     border-radius: 100%;
     border: none;
     width: 32px;
     height: 32px;
     color: var(--po-primary-color);
-    box-shadow: 0 1 2 1 rgba(0, 0, 0, 0.25) inset;
 
+}
+
+.inner__shadow {
+    box-shadow: var(--po-inner-shadow);
 }
