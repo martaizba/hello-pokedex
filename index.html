@@ -8,41 +8,28 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/theme.css">
+
    
 </head>
+
 <body class="page__container">
     <header class="header__container">
-
         <div class="title__container">
-            <img class="title__logo" src="/img/pokeballPokeball_title.png" alt="pokeball">
-            <H1 class="title__text headline">Pokedex</H1>
+            <img alt="logo de la aplicación pokédex" class="title__logo" src="img/pokeballPokeball_title.png">
+            <h1 class="title__text headline">Pokédex</h1>
         </div>
-
         <div class="filters__container">
-            <input class="filter__search inner__shadow" type="text" placeholder="Search">
-            <button class="filters__sort inner__shadow">#</button>
+            <div class="filters__search inner-shadow">
+                <img alt="icono de búsqueda" src="/img/tag.png">
+                <input id="SEARCH_BAR" type="text" placeholder="Search" />
+            </div>
+            <button class="filters__sort inner-shadow">#</button>
         </div>
-
-
-        
     </header>
-    <main>
-        <ul>
-            <li>
-                <p>001</p>
-                <img src="/img/Bulbasaur.png" alt="bulbasur">
-                <p>Bulbasur</p>
-            </li>
-
-            <li>
-                <p>004</p>
-                <img src="/img/Charmander.png" alt="charmander">
-                <p>Charmander</p>
-            </li>
-           
-        </ul>
+    <main class="main__container">
+        <ul class="pokemon__list"></ul>
     </main>
-
-   
+    <script src="./scripts/main.js"></script>
 </body>
+
 </html>

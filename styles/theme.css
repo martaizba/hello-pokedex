@@ -1,22 +1,34 @@
 :root {
-    --po-primary-color: #DC0A2D;
+    /** COLORS **/
+  
+    --po-primary-color: #dc0a2d;
+    --po-title-color: #fff;
+    --po-main-bg-color: #fff;
+  
+    /** SPACING **/
     --po-inner-spacing-xs: 4px;
-    --po-inner-spacing-s: 8px;
-    --po-inner-spacing-sm: 12px;
-    --po-title-color: #ffffff; 
-
-    --po-inner-shadow: 0 1 3 1 rgba(0 0 0 0, 0.25) inset;
-
-}
-
-
-
-
-/*PARA HACER dARK MODE*/
-@media (prefers-color-scheme: dark) {
+    --po-inner-spacing-sm: 8px;
+    --po-inner-spacing-md: 12px;
+    --po-inner-spacing-lg: 24px;
+  
+    --po-outter-spacing-xs: 8px;
+    --po-outter-spacing-sm: 16px;
+  
+    /** ELEVATIONS AND SHADOWS **/
+  
+    --po-inner-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+    --po-elevation-sm: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+  
+    /** CORNERS **/
+    --po-corner-sm: 8px;
+    --po-corner-lg: 16px;
+    --po-corner-full: 1000px;
+  }
+  
+      /** DARK MODE **/
+  @media (prefers-color-scheme: dark) {
     :root {
-        --po-primary-color: #580614;
-
-        --po-title-color: #494949; 
+      --po-primary-color: #460812;
+      --po-title-color: #949191;
     }
- }
+  }
